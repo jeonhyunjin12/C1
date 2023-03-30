@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(void)
+{
+  int a;
+  char b;
+
+  printf("a입력:");
+  scanf("%d", &a);
+
+  printf("b입력:");
+  scanf("%d", &b);
+
+  if(a>b)
+  {
+    printf(">");
+  }
+  else if(a<b)
+  {
+    printf("<");
+  }
+  else
+  {
+    printf("==");
+  }
+  return 0;
+}
